@@ -1,0 +1,25 @@
+body{
+    background-color: #1e424e;
+}
+
+.mapdiv{
+    width:28%;
+    margin: auto;
+}
+
+.mapdiv path {
+    fill: #cc5500;
+    stroke: #ffffff;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+ path:hover {
+    fill: rgb(29, 182, 55);
+    transition: all ease 0.10;
+  }
+
+ .statediv .form-group label {
+  color: aqua;
+  margin: auto;
+ }
